@@ -1,4 +1,5 @@
 <?php include 'includes/conn.php' ?>
+
 <!doctype html>
 <html lang="en">
 
@@ -21,7 +22,7 @@
 
     <div class="d-flex flex-column container-fluid w-50 p-2 border mt-4 mb-2">
         <h3 class="text-center mt-2 title">BRAND NAME</h3>
-        <div class="w-50 mx-auto">
+        <div class="h-25 mx-auto">
             <img id="img-card" class="mx-auto w-100 transform img-fluid" src="./img-perf.png" alt="">
         </div>
 
