@@ -2,10 +2,33 @@
 .title {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 20px;
 }
 .show-d {
     display: none;
+}
+body {
+  background: rgb(255, 255, 255);
+  
+}
+#brand-card{
+  width: fit-content;
+  max-width: fit-content;
+  background: rgb(240, 240, 240);
+  box-shadow: 5px 5px #5c5a5a0e;
+}
+#img-card {
+  width: 250px;
+  max-width: 300px;
+}
+
+.form-x{
+  min-width: 200px;
+  width: 300px;
+  max-width: 500px;
+  background: rgb(240,240,240);
+  box-shadow: 5px 5px #726f6f17;
+  
 }
 
 .transform {
@@ -23,7 +46,7 @@
 
 footer {
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
 
 }
   
