@@ -1,6 +1,6 @@
 
     <footer class="bg-light text-center text-lg-start w-100">
-        <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center " style="background-color: rgba(0, 0, 0, 0.2);">
 
             <a class="link-dark" href="https://github.com/miickL"><i class="fa fa-github"></i>miickL</a>
         </div>
@@ -15,3 +15,8 @@
 </body>
 
 </html>
+
+<?php
+// session_unset();
+
+?>

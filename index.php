@@ -5,11 +5,3 @@
 <?php include "components/login.php" ?>
 <?php include "components/register.php" ?>
 <?php include "components/footer.php" ?>
-
-
-
-
-
-
-
-

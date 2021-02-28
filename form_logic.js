@@ -38,3 +38,33 @@ function changeTop(word){
         
     }
 }
+
+const navLog = document.getElementById("login-nav");
+const commLog = document.getElementById("common");
+const tokLog = document.getElementById("token");
+
+
+
+// console.log(navLog);
+
+let x = true;
+navLog.addEventListener("click", () => {
+    // console.log(navLog);
+    if (x) {
+        
+        navLog.children[1].children[0].classList.add("active");
+        navLog.children[0].children[0].classList.remove("active");
+        tokLog.classList.remove("show-d");
+        commLog.classList.add("show-d");
+        x=false;
+    } else {
+        navLog.children[0].children[0].classList.add("active");
+        navLog.children[1].children[0].classList.remove("active");
+        tokLog.classList.add("show-d");
+        commLog.classList.remove("show-d");
+        x=true;
+    }
+
+    console.log(navLog.children);
+    // document.getElementById("common").style.display = "none";
+} )
