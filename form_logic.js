@@ -49,17 +49,15 @@ const tokLog = document.getElementById("token");
 
 let x = true;
 navLog.addEventListener("click", () => {
+    navLog.children[1].children[0].classList.toggle("active");
+    navLog.children[0].children[0].classList.toggle("active");
     // console.log(navLog);
     if (x) {
         
-        navLog.children[1].children[0].classList.add("active");
-        navLog.children[0].children[0].classList.remove("active");
         tokLog.classList.remove("show-d");
         commLog.classList.add("show-d");
         x=false;
     } else {
-        navLog.children[0].children[0].classList.add("active");
-        navLog.children[1].children[0].classList.remove("active");
         tokLog.classList.add("show-d");
         commLog.classList.remove("show-d");
         x=true;

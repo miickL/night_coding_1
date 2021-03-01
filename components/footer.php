@@ -1,5 +1,5 @@
 
-    <footer class="bg-light text-center text-lg-start w-100">
+    <footer class="bg-light fixed-bottom text-center text-lg-start w-100">
         <div class="text-center " style="background-color: rgba(0, 0, 0, 0.2);">
 
             <a class="link-dark" href="https://github.com/miickL"><i class="fa fa-github"></i>miickL</a>

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+*{
+  font-family: 'Lato', sans-serif;
 
+}
 .title {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -9,6 +12,14 @@
 .show-d {
     display: none;
 }
+
+.act {
+  background-color: #ffbf00;
+}
+.done {
+  background-color: #28A745;
+}
+
 body {
   background: rgb(255, 255, 255);
   
@@ -22,6 +33,21 @@ body {
 #img-card {
   width: 250px;
   max-width: 300px;
+}
+
+#user-img {
+  position: absolute;
+  width: 100px;
+  right: 10%;
+}
+
+/* #container-events{
+  width: 200px;
+} */
+
+.event-banner{
+  background: rgb(240,240,240);
+
 }
 
 .form-x{
@@ -45,9 +71,3 @@ body {
   .transform-active {
     border: 1px solid black;
   }
-
-footer {
-    position: absolute;
-    bottom: 0;
-
-}

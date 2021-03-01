@@ -1,12 +1,11 @@
 <?php
 if (isset($_GET['email-log'])) {
-
     $email = $_GET['email-log'];
     $sql_query = "SELECT id_user, username, email, passwd, date_c FROM login_sys.user_register WHERE email='$email';";
     $conn->query($sql_query);
     echo ($conn->error);
     if ($conn->affected_rows > 0) {
-        header("Location: panel.php");
+        header("Location: index.php?authT=1234");
         die;
     } else {
         $_SESSION['error'] = 002;
@@ -18,7 +17,7 @@ if (isset($_GET['email-log'])) {
         <ul class="d-flex flex-row nav justify-content-center">
             <ul id="login-nav" class="nav nav-tabs nav-stacked mb-2">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">Common</a>
+                    <a href="#" class="nav-link active">UserM</a>
                 </li>
 
                 <li class="nav-item ">
